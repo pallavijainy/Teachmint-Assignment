@@ -1,4 +1,4 @@
-# Teachmint-Assingment
+# Teachmint-Assignment
 > 💻 PROJECT NAME⭐ ====>>>> ✨User Directory💫
 > <br>
 ## [![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://teachmintassingment.vercel.app/)
