@@ -22,11 +22,11 @@ const UserDetail = () => {
          setPosts(response.data)
      }
      const getCountries = async()=>{
-        const response = await axios.get("http://worldtimeapi.org/api/timezone");
+        const response = await axios.get("https://worldtimeapi.org/api/timezone");
         setCountry(response.data)
      }
      const getTimeByCountry = async(countryname)=>{
-         const response = await axios.get(`http://worldtimeapi.org/api/timezone/${countryname}`)
+         const response = await axios.get(`https://worldtimeapi.org/api/timezone/${countryname}`)
          console.log(response.data,"pallavi")
 let datetimeString = response.data.utc_datetime
          const datetime = new Date(datetimeString);
